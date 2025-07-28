@@ -38,7 +38,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "juanpablogo-hackathon-b-68"
-          entrypoint: "client/mod.ts"
+          entrypoint: "client/main.ts"
           root: "client/build"
           
           
